@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C96870624DC46CE00C0BF2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C96870524DC46CE00C0BF2E /* AppDelegate.m */; };
+		4C96870924DC46CE00C0BF2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C96870824DC46CE00C0BF2E /* ViewController.m */; };
+		4C96870B24DC46D000C0BF2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C96870A24DC46D000C0BF2E /* Assets.xcassets */; };
+		4C96870E24DC46D000C0BF2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C96870C24DC46D000C0BF2E /* Main.storyboard */; };
+		4C96871124DC46D000C0BF2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C96871024DC46D000C0BF2E /* main.m */; };
+		4C96871C24DC46D000C0BF2E /* SplitViewSidebarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C96871B24DC46D000C0BF2E /* SplitViewSidebarTests.m */; };
+		4C96872724DC46D000C0BF2E /* SplitViewSidebarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C96872624DC46D000C0BF2E /* SplitViewSidebarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C96871824DC46D000C0BF2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9686F924DC46CE00C0BF2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C96870024DC46CE00C0BF2E;
+			remoteInfo = SplitViewSidebar;
+		};
+		4C96872324DC46D000C0BF2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9686F924DC46CE00C0BF2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C96870024DC46CE00C0BF2E;
+			remoteInfo = SplitViewSidebar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C96870124DC46CE00C0BF2E /* SplitViewSidebar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitViewSidebar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C96870424DC46CE00C0BF2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C96870524DC46CE00C0BF2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C96870724DC46CE00C0BF2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C96870824DC46CE00C0BF2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C96870A24DC46D000C0BF2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C96870D24DC46D000C0BF2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C96870F24DC46D000C0BF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C96871024DC46D000C0BF2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C96871224DC46D000C0BF2E /* SplitViewSidebar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SplitViewSidebar.entitlements; sourceTree = "<group>"; };
+		4C96871724DC46D000C0BF2E /* SplitViewSidebarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitViewSidebarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C96871B24DC46D000C0BF2E /* SplitViewSidebarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitViewSidebarTests.m; sourceTree = "<group>"; };
+		4C96871D24DC46D000C0BF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C96872224DC46D000C0BF2E /* SplitViewSidebarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitViewSidebarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C96872624DC46D000C0BF2E /* SplitViewSidebarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitViewSidebarUITests.m; sourceTree = "<group>"; };
+		4C96872824DC46D000C0BF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C9686FE24DC46CE00C0BF2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C96871424DC46D000C0BF2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C96871F24DC46D000C0BF2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C9686F824DC46CE00C0BF2E = {
+			isa = PBXGroup;
+			children = (
+				4C96870324DC46CE00C0BF2E /* SplitViewSidebar */,
+				4C96871A24DC46D000C0BF2E /* SplitViewSidebarTests */,
+				4C96872524DC46D000C0BF2E /* SplitViewSidebarUITests */,
+				4C96870224DC46CE00C0BF2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C96870224DC46CE00C0BF2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C96870124DC46CE00C0BF2E /* SplitViewSidebar.app */,
+				4C96871724DC46D000C0BF2E /* SplitViewSidebarTests.xctest */,
+				4C96872224DC46D000C0BF2E /* SplitViewSidebarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C96870324DC46CE00C0BF2E /* SplitViewSidebar */ = {
+			isa = PBXGroup;
+			children = (
+				4C96870424DC46CE00C0BF2E /* AppDelegate.h */,
+				4C96870524DC46CE00C0BF2E /* AppDelegate.m */,
+				4C96870724DC46CE00C0BF2E /* ViewController.h */,
+				4C96870824DC46CE00C0BF2E /* ViewController.m */,
+				4C96870A24DC46D000C0BF2E /* Assets.xcassets */,
+				4C96870C24DC46D000C0BF2E /* Main.storyboard */,
+				4C96870F24DC46D000C0BF2E /* Info.plist */,
+				4C96871024DC46D000C0BF2E /* main.m */,
+				4C96871224DC46D000C0BF2E /* SplitViewSidebar.entitlements */,
+			);
+			path = SplitViewSidebar;
+			sourceTree = "<group>";
+		};
+		4C96871A24DC46D000C0BF2E /* SplitViewSidebarTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C96871B24DC46D000C0BF2E /* SplitViewSidebarTests.m */,
+				4C96871D24DC46D000C0BF2E /* Info.plist */,
+			);
+			path = SplitViewSidebarTests;
+			sourceTree = "<group>";
+		};
+		4C96872524DC46D000C0BF2E /* SplitViewSidebarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C96872624DC46D000C0BF2E /* SplitViewSidebarUITests.m */,
+				4C96872824DC46D000C0BF2E /* Info.plist */,
+			);
+			path = SplitViewSidebarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C96870024DC46CE00C0BF2E /* SplitViewSidebar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C96872B24DC46D000C0BF2E /* Build configuration list for PBXNativeTarget "SplitViewSidebar" */;
+			buildPhases = (
+				4C9686FD24DC46CE00C0BF2E /* Sources */,
+				4C9686FE24DC46CE00C0BF2E /* Frameworks */,
+				4C9686FF24DC46CE00C0BF2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplitViewSidebar;
+			productName = SplitViewSidebar;
+			productReference = 4C96870124DC46CE00C0BF2E /* SplitViewSidebar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C96871624DC46D000C0BF2E /* SplitViewSidebarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C96872E24DC46D000C0BF2E /* Build configuration list for PBXNativeTarget "SplitViewSidebarTests" */;
+			buildPhases = (
+				4C96871324DC46D000C0BF2E /* Sources */,
+				4C96871424DC46D000C0BF2E /* Frameworks */,
+				4C96871524DC46D000C0BF2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C96871924DC46D000C0BF2E /* PBXTargetDependency */,
+			);
+			name = SplitViewSidebarTests;
+			productName = SplitViewSidebarTests;
+			productReference = 4C96871724DC46D000C0BF2E /* SplitViewSidebarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C96872124DC46D000C0BF2E /* SplitViewSidebarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C96873124DC46D000C0BF2E /* Build configuration list for PBXNativeTarget "SplitViewSidebarUITests" */;
+			buildPhases = (
+				4C96871E24DC46D000C0BF2E /* Sources */,
+				4C96871F24DC46D000C0BF2E /* Frameworks */,
+				4C96872024DC46D000C0BF2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C96872424DC46D000C0BF2E /* PBXTargetDependency */,
+			);
+			name = SplitViewSidebarUITests;
+			productName = SplitViewSidebarUITests;
+			productReference = 4C96872224DC46D000C0BF2E /* SplitViewSidebarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C9686F924DC46CE00C0BF2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4C96870024DC46CE00C0BF2E = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					4C96871624DC46D000C0BF2E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 4C96870024DC46CE00C0BF2E;
+					};
+					4C96872124DC46D000C0BF2E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 4C96870024DC46CE00C0BF2E;
+					};
+				};
+			};
+			buildConfigurationList = 4C9686FC24DC46CE00C0BF2E /* Build configuration list for PBXProject "SplitViewSidebar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C9686F824DC46CE00C0BF2E;
+			productRefGroup = 4C96870224DC46CE00C0BF2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C96870024DC46CE00C0BF2E /* SplitViewSidebar */,
+				4C96871624DC46D000C0BF2E /* SplitViewSidebarTests */,
+				4C96872124DC46D000C0BF2E /* SplitViewSidebarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C9686FF24DC46CE00C0BF2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C96870B24DC46D000C0BF2E /* Assets.xcassets in Resources */,
+				4C96870E24DC46D000C0BF2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C96871524DC46D000C0BF2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C96872024DC46D000C0BF2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C9686FD24DC46CE00C0BF2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C96870924DC46CE00C0BF2E /* ViewController.m in Sources */,
+				4C96871124DC46D000C0BF2E /* main.m in Sources */,
+				4C96870624DC46CE00C0BF2E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C96871324DC46D000C0BF2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C96871C24DC46D000C0BF2E /* SplitViewSidebarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C96871E24DC46D000C0BF2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C96872724DC46D000C0BF2E /* SplitViewSidebarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C96871924DC46D000C0BF2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C96870024DC46CE00C0BF2E /* SplitViewSidebar */;
+			targetProxy = 4C96871824DC46D000C0BF2E /* PBXContainerItemProxy */;
+		};
+		4C96872424DC46D000C0BF2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C96870024DC46CE00C0BF2E /* SplitViewSidebar */;
+			targetProxy = 4C96872324DC46D000C0BF2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C96870C24DC46D000C0BF2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C96870D24DC46D000C0BF2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C96872924DC46D000C0BF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C96872A24DC46D000C0BF2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C96872C24DC46D000C0BF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SplitViewSidebar/SplitViewSidebar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KHSNQKXT55;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SplitViewSidebar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coofdylabs.SplitViewSidebar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C96872D24DC46D000C0BF2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SplitViewSidebar/SplitViewSidebar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KHSNQKXT55;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SplitViewSidebar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coofdylabs.SplitViewSidebar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C96872F24DC46D000C0BF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KHSNQKXT55;
+				INFOPLIST_FILE = SplitViewSidebarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coofdylabs.SplitViewSidebarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitViewSidebar.app/Contents/MacOS/SplitViewSidebar";
+			};
+			name = Debug;
+		};
+		4C96873024DC46D000C0BF2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KHSNQKXT55;
+				INFOPLIST_FILE = SplitViewSidebarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coofdylabs.SplitViewSidebarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitViewSidebar.app/Contents/MacOS/SplitViewSidebar";
+			};
+			name = Release;
+		};
+		4C96873224DC46D000C0BF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KHSNQKXT55;
+				INFOPLIST_FILE = SplitViewSidebarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coofdylabs.SplitViewSidebarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SplitViewSidebar;
+			};
+			name = Debug;
+		};
+		4C96873324DC46D000C0BF2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KHSNQKXT55;
+				INFOPLIST_FILE = SplitViewSidebarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coofdylabs.SplitViewSidebarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SplitViewSidebar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C9686FC24DC46CE00C0BF2E /* Build configuration list for PBXProject "SplitViewSidebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C96872924DC46D000C0BF2E /* Debug */,
+				4C96872A24DC46D000C0BF2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C96872B24DC46D000C0BF2E /* Build configuration list for PBXNativeTarget "SplitViewSidebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C96872C24DC46D000C0BF2E /* Debug */,
+				4C96872D24DC46D000C0BF2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C96872E24DC46D000C0BF2E /* Build configuration list for PBXNativeTarget "SplitViewSidebarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C96872F24DC46D000C0BF2E /* Debug */,
+				4C96873024DC46D000C0BF2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C96873124DC46D000C0BF2E /* Build configuration list for PBXNativeTarget "SplitViewSidebarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C96873224DC46D000C0BF2E /* Debug */,
+				4C96873324DC46D000C0BF2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C9686F924DC46CE00C0BF2E /* Project object */;
+}
