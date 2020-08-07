@@ -14,6 +14,7 @@
 		4C96871124DC46D000C0BF2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C96871024DC46D000C0BF2E /* main.m */; };
 		4C96871C24DC46D000C0BF2E /* SplitViewSidebarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C96871B24DC46D000C0BF2E /* SplitViewSidebarTests.m */; };
 		4C96872724DC46D000C0BF2E /* SplitViewSidebarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C96872624DC46D000C0BF2E /* SplitViewSidebarUITests.m */; };
+		4C96873624DC474500C0BF2E /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C96873524DC474500C0BF2E /* WindowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		4C96872224DC46D000C0BF2E /* SplitViewSidebarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitViewSidebarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C96872624DC46D000C0BF2E /* SplitViewSidebarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitViewSidebarUITests.m; sourceTree = "<group>"; };
 		4C96872824DC46D000C0BF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C96873424DC474500C0BF2E /* WindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		4C96873524DC474500C0BF2E /* WindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				4C96870524DC46CE00C0BF2E /* AppDelegate.m */,
 				4C96870724DC46CE00C0BF2E /* ViewController.h */,
 				4C96870824DC46CE00C0BF2E /* ViewController.m */,
+				4C96873424DC474500C0BF2E /* WindowController.h */,
+				4C96873524DC474500C0BF2E /* WindowController.m */,
 				4C96870A24DC46D000C0BF2E /* Assets.xcassets */,
 				4C96870C24DC46D000C0BF2E /* Main.storyboard */,
 				4C96870F24DC46D000C0BF2E /* Info.plist */,
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C96870924DC46CE00C0BF2E /* ViewController.m in Sources */,
+				4C96873624DC474500C0BF2E /* WindowController.m in Sources */,
 				4C96871124DC46D000C0BF2E /* main.m in Sources */,
 				4C96870624DC46CE00C0BF2E /* AppDelegate.m in Sources */,
 			);
